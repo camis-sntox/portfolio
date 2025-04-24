@@ -4,7 +4,7 @@
     --secondary-color: #8f94fb;
     --dark-color: #2a2d3e;
     --light-color: #f5f5f7;
-    --text-color: #333;
+    --text-color: #393939;
     --text-light: #666;
     --white: #fff;
     --black: #000;
@@ -15,9 +15,9 @@
 [data-theme="dark"] {
     --primary-color: #6a3093;
     --secondary-color: #a044ff;
-    --dark-color: #121212;
-    --light-color: #1e1e1e;
-    --text-color: #f5f5f5;
+    --dark-color: #000000;
+    --light-color: #212121;
+    --text-color: #ffffff;
     --text-light: #ccc;
     --shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
