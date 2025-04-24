@@ -45,6 +45,10 @@ body {
 }
 
 /* Header & Navigation */
+#aumentar-fonte, #diminuir-fonte, #botao-acessibilidade{
+    color: var(--text-light);
+}
+
 header {
     position: fixed;
     width: 100%;
