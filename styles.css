@@ -45,18 +45,17 @@ body {
 }
 
 /* Header & Navigation */
-#aumentar-fonte, #diminuir-fonte, #botao-acessibilidade{
-    color: var(--text-color);
+#botao-acessibilidade, #aumentar-fonte, #diminuir-fonte {
     list-style: none;
     gap: 2rem;
-    text-decoration: none;
     font-weight: 500;
     position: relative;
     transition: var(--transition);
-    padding: 0;
-    margin: 0;
-    box-sizing: var(--white);
-   
+    background: transparent;
+    border: 2px solid var(--text-light);
+    color: var(--text-light);
+    box-shadow: var(--shadow);
+    cursor: pointer;
 }
 
 header {
@@ -239,7 +238,7 @@ header {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background: url('assets/profile.png') center/cover no-repeat;
+    background: url('assets/mila.webp') center/cover no-repeat;
     overflow: hidden;
     animation: animate 6s ease-in-out infinite;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);

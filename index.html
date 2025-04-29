@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="assets/profile.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
@@ -24,14 +24,13 @@
                     <i class="fas fa-moon"></i>
                 </button>
                 <div id="acessibilidade" class="menu-acessibilidade">
-                    
-                    <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" >Acessibilidade</button>
-                    
-                    <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
-                        <button id="aumentar-fonte" class="btn btn-primary fw-bold">A +</button>
-                        
-                        <button id="diminuir-fonte" class="btn btn-primary fw-bold">A -</button>
-                        
+                    <details>
+                        <summary id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" >Acessibilidade</summary>
+                        <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                            <button id="aumentar-fonte" class="btn btn-primary fw-bold">A +</button>
+                            <button id="diminuir-fonte" class="btn btn-primary fw-bold">A -</button>
+                        </div>
+                    </details>
                 </div>
                 <div class="hamburger">
                     <span class="bar"></span>
