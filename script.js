@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Site acessível',
             description: 'Um site sobre o Tropicália, desenvolvido pela Alura, para o curso de Acessibilidade na Web.',
             technologies: ['HTML', 'CSS', 'JavaScript'],
-            liveLink: '#',
+            liveLink: 'https://camis-sntox.github.io/site-acessivel/',
             codeLink: '#'
         },
         {
